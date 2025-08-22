@@ -1,0 +1,718 @@
+{
+  "employees": [
+    {
+      "employee_id": "EMP001",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@company.com",
+      "department": "Engineering",
+      "designation": "Senior Developer",
+      "phone": "+91 9876543210",
+      "salary": 75000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "Priya Patel",
+      "email": "priya.patel@company.com",
+      "department": "HR",
+      "designation": "HR Manager",
+      "phone": "+91 9876543211",
+      "salary": 65000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP003",
+      "name": "Amit Verma",
+      "email": "amit.verma@company.com",
+      "department": "Marketing",
+      "designation": "Marketing Specialist",
+      "phone": "+91 9876543212",
+      "salary": 55000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP004",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@company.com",
+      "department": "Finance",
+      "designation": "Financial Analyst",
+      "phone": "+91 9876543213",
+      "salary": 60000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP005",
+      "name": "Ananya Desai",
+      "email": "ananya.desai@company.com",
+      "department": "Marketing",
+      "designation": "Marketing Specialist",
+      "phone": "+91 9876500005",
+      "salary": 65000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP006",
+      "name": "Vikram Malhotra",
+      "email": "vikram.malhotra@company.com",
+      "department": "Engineering",
+      "designation": "Software Engineer",
+      "phone": "+91 9876500006",
+      "salary": 85000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP007",
+      "name": "Pooja Reddy",
+      "email": "pooja.reddy@company.com",
+      "department": "HR",
+      "designation": "HR Coordinator",
+      "phone": "+91 9876500007",
+      "salary": 55000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP008",
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta@company.com",
+      "department": "Sales",
+      "designation": "Sales Representative",
+      "phone": "+91 9876500008",
+      "salary": 60000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP009",
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@company.com",
+      "department": "Engineering",
+      "designation": "Senior Software Engineer",
+      "phone": "+91-9876543201",
+      "salary": 950000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP010",
+      "name": "Priya Sharma",
+      "email": "priya.sharma2@company.com",
+      "department": "HR",
+      "designation": "HR Manager",
+      "phone": "+91-9876543202",
+      "salary": 850000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP011",
+      "name": "Amit Patel",
+      "email": "amit.patel@company.com",
+      "department": "Sales",
+      "designation": "Sales Director",
+      "phone": "+91-9876543203",
+      "salary": 1200000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP012",
+      "name": "Neha Singh",
+      "email": "neha.singh@company.com",
+      "department": "Finance",
+      "designation": "Finance Manager",
+      "phone": "+91-9876543204",
+      "salary": 1100000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP013",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@company.com",
+      "department": "Marketing",
+      "designation": "Marketing Specialist",
+      "phone": "+91-9876543205",
+      "salary": 650000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP014",
+      "name": "Anjali Verma",
+      "email": "anjali.verma@company.com",
+      "department": "Engineering",
+      "designation": "Software Engineer",
+      "phone": "+91-9876543206",
+      "salary": 850000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP015",
+      "name": "Rahul Malhotra",
+      "email": "rahul.malhotra@company.com",
+      "department": "HR",
+      "designation": "HR Coordinator",
+      "phone": "+91-9876543207",
+      "salary": 550000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP016",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@company.com",
+      "department": "Sales",
+      "designation": "Sales Representative",
+      "phone": "+91-9876543208",
+      "salary": 600000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP017",
+      "name": "Arjun Joshi",
+      "email": "arjun.joshi@company.com",
+      "department": "Finance",
+      "designation": "Financial Analyst",
+      "phone": "+91-9876543209",
+      "salary": 700000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP018",
+      "name": "Ishita Joshi",
+      "email": "ishita.joshi@company.com",
+      "department": "Engineering",
+      "designation": "DevOps Engineer",
+      "phone": "+91-9876543210",
+      "salary": 900000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP019",
+      "name": "Karan Khanna",
+      "email": "karan.khanna@company.com",
+      "department": "Marketing",
+      "designation": "Content Creator",
+      "phone": "+91-9876543211",
+      "salary": 580000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    },
+    {
+      "employee_id": "EMP020",
+      "name": "Divya Nair",
+      "email": "divya.nair@company.com",
+      "department": "Sales",
+      "designation": "Sales Manager",
+      "phone": "+91-9876543212",
+      "salary": 750000.0,
+      "hire_date": "2025-08-20",
+      "status": "Active"
+    }
+  ],
+  "departments": {
+    "Engineering": 5,
+    "HR": 4,
+    "Marketing": 4,
+    "Finance": 3,
+    "Sales": 4
+  },
+  "attendance_summary": {
+    "total_records": 680,
+    "by_status": {
+      "Present": 588,
+      "Absent": 41,
+      "Late": 38,
+      "Half Day": 13
+    },
+    "by_employee": {
+      "EMP001": {
+        "name": "Rahul Sharma",
+        "total_records": 34,
+        "present_days": 29,
+        "absent_days": 1,
+        "late_days": 1,
+        "half_days": 3,
+        "attendance_rate": 85.29
+      },
+      "EMP002": {
+        "name": "Priya Patel",
+        "total_records": 34,
+        "present_days": 27,
+        "absent_days": 4,
+        "late_days": 3,
+        "half_days": 0,
+        "attendance_rate": 79.41
+      },
+      "EMP003": {
+        "name": "Amit Verma",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 1,
+        "late_days": 2,
+        "half_days": 1,
+        "attendance_rate": 88.24
+      },
+      "EMP004": {
+        "name": "Neha Gupta",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 2,
+        "late_days": 1,
+        "half_days": 1,
+        "attendance_rate": 88.24
+      },
+      "EMP005": {
+        "name": "Ananya Desai",
+        "total_records": 34,
+        "present_days": 27,
+        "absent_days": 5,
+        "late_days": 1,
+        "half_days": 1,
+        "attendance_rate": 79.41
+      },
+      "EMP006": {
+        "name": "Vikram Malhotra",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 2,
+        "late_days": 2,
+        "half_days": 0,
+        "attendance_rate": 88.24
+      },
+      "EMP007": {
+        "name": "Pooja Reddy",
+        "total_records": 34,
+        "present_days": 28,
+        "absent_days": 4,
+        "late_days": 2,
+        "half_days": 0,
+        "attendance_rate": 82.35
+      },
+      "EMP008": {
+        "name": "Arjun Mehta",
+        "total_records": 34,
+        "present_days": 31,
+        "absent_days": 2,
+        "late_days": 1,
+        "half_days": 0,
+        "attendance_rate": 91.18
+      },
+      "EMP009": {
+        "name": "Rajesh Kumar",
+        "total_records": 34,
+        "present_days": 29,
+        "absent_days": 2,
+        "late_days": 2,
+        "half_days": 1,
+        "attendance_rate": 85.29
+      },
+      "EMP010": {
+        "name": "Priya Sharma",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 2,
+        "late_days": 1,
+        "half_days": 1,
+        "attendance_rate": 88.24
+      },
+      "EMP011": {
+        "name": "Amit Patel",
+        "total_records": 34,
+        "present_days": 31,
+        "absent_days": 1,
+        "late_days": 2,
+        "half_days": 0,
+        "attendance_rate": 91.18
+      },
+      "EMP012": {
+        "name": "Neha Singh",
+        "total_records": 34,
+        "present_days": 31,
+        "absent_days": 1,
+        "late_days": 2,
+        "half_days": 0,
+        "attendance_rate": 91.18
+      },
+      "EMP013": {
+        "name": "Vikram Singh",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 2,
+        "late_days": 1,
+        "half_days": 1,
+        "attendance_rate": 88.24
+      },
+      "EMP014": {
+        "name": "Anjali Verma",
+        "total_records": 34,
+        "present_days": 29,
+        "absent_days": 1,
+        "late_days": 3,
+        "half_days": 1,
+        "attendance_rate": 85.29
+      },
+      "EMP015": {
+        "name": "Rahul Malhotra",
+        "total_records": 34,
+        "present_days": 29,
+        "absent_days": 1,
+        "late_days": 3,
+        "half_days": 1,
+        "attendance_rate": 85.29
+      },
+      "EMP016": {
+        "name": "Sneha Reddy",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 0,
+        "late_days": 3,
+        "half_days": 1,
+        "attendance_rate": 88.24
+      },
+      "EMP017": {
+        "name": "Arjun Joshi",
+        "total_records": 34,
+        "present_days": 29,
+        "absent_days": 5,
+        "late_days": 0,
+        "half_days": 0,
+        "attendance_rate": 85.29
+      },
+      "EMP018": {
+        "name": "Ishita Joshi",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 3,
+        "late_days": 1,
+        "half_days": 0,
+        "attendance_rate": 88.24
+      },
+      "EMP019": {
+        "name": "Karan Khanna",
+        "total_records": 34,
+        "present_days": 28,
+        "absent_days": 1,
+        "late_days": 4,
+        "half_days": 1,
+        "attendance_rate": 82.35
+      },
+      "EMP020": {
+        "name": "Divya Nair",
+        "total_records": 34,
+        "present_days": 30,
+        "absent_days": 1,
+        "late_days": 3,
+        "half_days": 0,
+        "attendance_rate": 88.24
+      }
+    },
+    "date_range": {
+      "start": "2025-07-01",
+      "end": "2025-08-15"
+    }
+  },
+  "leave_summary": {
+    "total_requests": 60,
+    "by_status": {
+      "Approved": 38,
+      "Pending": 18,
+      "Rejected": 4
+    },
+    "by_type": {
+      "Annual Leave": 20,
+      "Sick Leave": 16,
+      "Personal Leave": 11,
+      "Emergency Leave": 10,
+      "Casual Leave": 3
+    },
+    "by_employee": {
+      "EMP001": {
+        "name": "Rahul Sharma",
+        "total_requests": 3,
+        "approved": 3,
+        "pending": 0
+      },
+      "EMP002": {
+        "name": "Priya Patel",
+        "total_requests": 3,
+        "approved": 3,
+        "pending": 0
+      },
+      "EMP003": {
+        "name": "Amit Verma",
+        "total_requests": 3,
+        "approved": 1,
+        "pending": 2
+      },
+      "EMP004": {
+        "name": "Neha Gupta",
+        "total_requests": 2,
+        "approved": 2,
+        "pending": 0
+      },
+      "EMP006": {
+        "name": "Vikram Malhotra",
+        "total_requests": 5,
+        "approved": 4,
+        "pending": 1
+      },
+      "EMP007": {
+        "name": "Pooja Reddy",
+        "total_requests": 4,
+        "approved": 2,
+        "pending": 1
+      },
+      "EMP008": {
+        "name": "Arjun Mehta",
+        "total_requests": 3,
+        "approved": 1,
+        "pending": 1
+      },
+      "EMP009": {
+        "name": "Rajesh Kumar",
+        "total_requests": 1,
+        "approved": 1,
+        "pending": 0
+      },
+      "EMP010": {
+        "name": "Priya Sharma",
+        "total_requests": 4,
+        "approved": 3,
+        "pending": 1
+      },
+      "EMP011": {
+        "name": "Amit Patel",
+        "total_requests": 4,
+        "approved": 2,
+        "pending": 1
+      },
+      "EMP012": {
+        "name": "Neha Singh",
+        "total_requests": 3,
+        "approved": 3,
+        "pending": 0
+      },
+      "EMP013": {
+        "name": "Vikram Singh",
+        "total_requests": 5,
+        "approved": 4,
+        "pending": 1
+      },
+      "EMP014": {
+        "name": "Anjali Verma",
+        "total_requests": 2,
+        "approved": 1,
+        "pending": 1
+      },
+      "EMP015": {
+        "name": "Rahul Malhotra",
+        "total_requests": 5,
+        "approved": 2,
+        "pending": 3
+      },
+      "EMP016": {
+        "name": "Sneha Reddy",
+        "total_requests": 3,
+        "approved": 1,
+        "pending": 2
+      },
+      "EMP017": {
+        "name": "Arjun Joshi",
+        "total_requests": 2,
+        "approved": 1,
+        "pending": 1
+      },
+      "EMP018": {
+        "name": "Ishita Joshi",
+        "total_requests": 1,
+        "approved": 0,
+        "pending": 0
+      },
+      "EMP019": {
+        "name": "Karan Khanna",
+        "total_requests": 3,
+        "approved": 3,
+        "pending": 0
+      },
+      "EMP020": {
+        "name": "Divya Nair",
+        "total_requests": 4,
+        "approved": 1,
+        "pending": 3
+      }
+    }
+  },
+  "task_summary": {
+    "total_tasks": 100,
+    "by_status": {
+      "Not Started": 19,
+      "In Progress": 49,
+      "Completed": 22,
+      "On Hold": 10
+    },
+    "by_priority": {
+      "High": 35,
+      "Medium": 43,
+      "Low": 22
+    },
+    "by_department": {
+      "Engineering": 27,
+      "HR": 16,
+      "Marketing": 22,
+      "Finance": 12,
+      "Sales": 23
+    },
+    "by_employee": {
+      "EMP001": {
+        "name": "Rahul Sharma",
+        "total_tasks": 9,
+        "completed": 3,
+        "in_progress": 4
+      },
+      "EMP002": {
+        "name": "Priya Patel",
+        "total_tasks": 1,
+        "completed": 0,
+        "in_progress": 1
+      },
+      "EMP003": {
+        "name": "Amit Verma",
+        "total_tasks": 5,
+        "completed": 1,
+        "in_progress": 3
+      },
+      "EMP004": {
+        "name": "Neha Gupta",
+        "total_tasks": 4,
+        "completed": 1,
+        "in_progress": 3
+      },
+      "EMP005": {
+        "name": "Ananya Desai",
+        "total_tasks": 2,
+        "completed": 0,
+        "in_progress": 1
+      },
+      "EMP006": {
+        "name": "Vikram Malhotra",
+        "total_tasks": 3,
+        "completed": 1,
+        "in_progress": 2
+      },
+      "EMP007": {
+        "name": "Pooja Reddy",
+        "total_tasks": 5,
+        "completed": 1,
+        "in_progress": 4
+      },
+      "EMP008": {
+        "name": "Arjun Mehta",
+        "total_tasks": 6,
+        "completed": 1,
+        "in_progress": 3
+      },
+      "EMP009": {
+        "name": "Rajesh Kumar",
+        "total_tasks": 4,
+        "completed": 1,
+        "in_progress": 1
+      },
+      "EMP010": {
+        "name": "Priya Sharma",
+        "total_tasks": 3,
+        "completed": 1,
+        "in_progress": 1
+      },
+      "EMP011": {
+        "name": "Amit Patel",
+        "total_tasks": 4,
+        "completed": 1,
+        "in_progress": 2
+      },
+      "EMP012": {
+        "name": "Neha Singh",
+        "total_tasks": 6,
+        "completed": 1,
+        "in_progress": 1
+      },
+      "EMP013": {
+        "name": "Vikram Singh",
+        "total_tasks": 8,
+        "completed": 1,
+        "in_progress": 6
+      },
+      "EMP014": {
+        "name": "Anjali Verma",
+        "total_tasks": 5,
+        "completed": 2,
+        "in_progress": 2
+      },
+      "EMP015": {
+        "name": "Rahul Malhotra",
+        "total_tasks": 7,
+        "completed": 3,
+        "in_progress": 4
+      },
+      "EMP016": {
+        "name": "Sneha Reddy",
+        "total_tasks": 6,
+        "completed": 1,
+        "in_progress": 4
+      },
+      "EMP017": {
+        "name": "Arjun Joshi",
+        "total_tasks": 2,
+        "completed": 0,
+        "in_progress": 1
+      },
+      "EMP018": {
+        "name": "Ishita Joshi",
+        "total_tasks": 6,
+        "completed": 1,
+        "in_progress": 3
+      },
+      "EMP019": {
+        "name": "Karan Khanna",
+        "total_tasks": 7,
+        "completed": 1,
+        "in_progress": 2
+      },
+      "EMP020": {
+        "name": "Divya Nair",
+        "total_tasks": 7,
+        "completed": 1,
+        "in_progress": 1
+      }
+    }
+  },
+  "quick_facts": {
+    "total_employees": 20,
+    "departments": [
+      "Engineering",
+      "HR",
+      "Marketing",
+      "Finance",
+      "Sales"
+    ],
+    "largest_department": "Engineering",
+    "total_attendance_records": 680,
+    "total_leave_requests": 60,
+    "total_tasks": 100,
+    "completed_tasks": 22,
+    "pending_leaves": 18,
+    "high_priority_tasks": 35,
+    "average_attendance_rate": 86.47
+  }
+}

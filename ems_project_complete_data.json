@@ -1,0 +1,567 @@
+{
+  "project_info": {
+    "name": "Employee Management System (EMS)",
+    "description": "Comprehensive employee management system with modules for employees, attendance, leave, and tasks",
+    "data_sources": [
+      "Django backend models (ems_api/models.py)",
+      "Mock data (project/src/data/mockData.ts)",
+      "Comprehensive population script (ems_backend/populate_comprehensive_data.py)"
+    ],
+    "total_records": {
+      "employees": 28,
+      "attendance_records": 320,
+      "leave_requests": 60,
+      "tasks": 100
+    },
+    "date_generated": "2025-08-17"
+  },
+  
+  "employees": {
+    "count": 28,
+    "data": [
+      {
+        "id": 1,
+        "employee_id": "EMP001",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@company.com",
+        "department": "Engineering",
+        "designation": "Senior Developer",
+        "hire_date": "15:01:2023",
+        "status": "Active",
+        "phone": "+91 9876543210",
+        "salary": 75000,
+        "manager": "Tech Lead"
+      },
+      {
+        "id": 2,
+        "employee_id": "EMP002",
+        "name": "Priya Patel",
+        "email": "priya.patel@company.com",
+        "department": "HR",
+        "designation": "HR Manager",
+        "hire_date": "10:08:2022",
+        "status": "Active",
+        "phone": "+91 9876543211",
+        "salary": 65000
+      },
+      {
+        "id": 3,
+        "employee_id": "EMP003",
+        "name": "Amit Verma",
+        "email": "amit.verma@company.com",
+        "department": "Marketing",
+        "designation": "Marketing Specialist",
+        "hire_date": "20:03:2023",
+        "status": "Active",
+        "phone": "+91 9876543212",
+        "salary": 55000,
+        "manager": "Marketing Head"
+      },
+      {
+        "id": 4,
+        "employee_id": "EMP004",
+        "name": "Neha Gupta",
+        "email": "neha.gupta@company.com",
+        "department": "Finance",
+        "designation": "Financial Analyst",
+        "hire_date": "05:11:2022",
+        "status": "Active",
+        "phone": "+91 9876543213",
+        "salary": 60000,
+        "manager": "Finance Manager"
+      },
+      {
+        "id": 5,
+        "employee_id": "EMP005",
+        "name": "Ananya Desai",
+        "email": "ananya.desai@company.com",
+        "department": "Marketing",
+        "designation": "Marketing Specialist",
+        "hire_date": "15:09:2023",
+        "status": "Active",
+        "phone": "+91 9876500005",
+        "salary": 65000
+      },
+      {
+        "id": 6,
+        "employee_id": "EMP006",
+        "name": "Vikram Malhotra",
+        "email": "vikram.malhotra@company.com",
+        "department": "Engineering",
+        "designation": "Software Engineer",
+        "hire_date": "20:10:2023",
+        "status": "Active",
+        "phone": "+91 9876500006",
+        "salary": 85000
+      },
+      {
+        "id": 7,
+        "employee_id": "EMP007",
+        "name": "Pooja Reddy",
+        "email": "pooja.reddy@company.com",
+        "department": "HR",
+        "designation": "HR Coordinator",
+        "hire_date": "10:11:2023",
+        "status": "Active",
+        "phone": "+91 9876500007",
+        "salary": 55000
+      },
+      {
+        "id": 8,
+        "employee_id": "EMP008",
+        "name": "Arjun Mehta",
+        "email": "arjun.mehta@company.com",
+        "department": "Sales",
+        "designation": "Sales Representative",
+        "hire_date": "05:12:2023",
+        "status": "Active",
+        "phone": "+91 9876500008",
+        "salary": 60000
+      },
+      {
+        "id": 9,
+        "employee_id": "emp001",
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@company.com",
+        "phone": "+91-9876543201",
+        "department": "Engineering",
+        "designation": "Senior Software Engineer",
+        "hire_date": "2023-01-15",
+        "salary": 950000,
+        "status": "Active"
+      },
+      {
+        "id": 10,
+        "employee_id": "emp002",
+        "name": "Priya Sharma",
+        "email": "priya.sharma@company.com",
+        "phone": "+91-9876543202",
+        "department": "HR",
+        "designation": "HR Manager",
+        "hire_date": "2023-02-20",
+        "salary": 850000,
+        "status": "Active"
+      },
+      {
+        "id": 11,
+        "employee_id": "emp003",
+        "name": "Amit Patel",
+        "email": "amit.patel@company.com",
+        "phone": "+91-9876543203",
+        "department": "Sales",
+        "designation": "Sales Director",
+        "hire_date": "2023-03-10",
+        "salary": 1200000,
+        "status": "Active"
+      },
+      {
+        "id": 12,
+        "employee_id": "emp004",
+        "name": "Neha Gupta",
+        "email": "neha.gupta@company.com",
+        "phone": "+91-9876543204",
+        "department": "Finance",
+        "designation": "Finance Manager",
+        "hire_date": "2023-04-05",
+        "salary": 1100000,
+        "status": "Active"
+      },
+      {
+        "id": 13,
+        "employee_id": "emp005",
+        "name": "Vikram Singh",
+        "email": "vikram.singh@company.com",
+        "phone": "+91-9876543205",
+        "department": "Marketing",
+        "designation": "Marketing Specialist",
+        "hire_date": "2023-05-15",
+        "salary": 650000,
+        "status": "Active"
+      },
+      {
+        "id": 14,
+        "employee_id": "emp006",
+        "name": "Anjali Verma",
+        "email": "anjali.verma@company.com",
+        "phone": "+91-9876543206",
+        "department": "Engineering",
+        "designation": "Software Engineer",
+        "hire_date": "2023-06-20",
+        "salary": 850000,
+        "status": "Active"
+      },
+      {
+        "id": 15,
+        "employee_id": "emp007",
+        "name": "Rahul Malhotra",
+        "email": "rahul.malhotra@company.com",
+        "phone": "+91-9876543207",
+        "department": "HR",
+        "designation": "HR Coordinator",
+        "hire_date": "2023-07-10",
+        "salary": 550000,
+        "status": "Active"
+      },
+      {
+        "id": 16,
+        "employee_id": "emp008",
+        "name": "Sneha Reddy",
+        "email": "sneha.reddy@company.com",
+        "phone": "+91-9876543208",
+        "department": "Sales",
+        "designation": "Sales Representative",
+        "hire_date": "2023-08-05",
+        "salary": 600000,
+        "status": "Active"
+      },
+      {
+        "id": 17,
+        "employee_id": "emp009",
+        "name": "Arjun Mehta",
+        "email": "arjun.mehta@company.com",
+        "phone": "+91-9876543209",
+        "department": "Finance",
+        "designation": "Financial Analyst",
+        "hire_date": "2023-09-15",
+        "salary": 700000,
+        "status": "Active"
+      },
+      {
+        "id": 18,
+        "employee_id": "emp010",
+        "name": "Ishita Joshi",
+        "email": "ishita.joshi@company.com",
+        "phone": "+91-9876543210",
+        "department": "Engineering",
+        "designation": "DevOps Engineer",
+        "hire_date": "2023-10-20",
+        "salary": 900000,
+        "status": "Active"
+      },
+      {
+        "id": 19,
+        "employee_id": "emp011",
+        "name": "Karan Khanna",
+        "email": "karan.khanna@company.com",
+        "phone": "+91-9876543211",
+        "department": "Marketing",
+        "designation": "Content Creator",
+        "hire_date": "2023-11-10",
+        "salary": 580000,
+        "status": "Active"
+      },
+      {
+        "id": 20,
+        "employee_id": "emp012",
+        "name": "Divya Nair",
+        "email": "divya.nair@company.com",
+        "phone": "+91-9876543212",
+        "department": "Sales",
+        "designation": "Sales Manager",
+        "hire_date": "2023-12-05",
+        "salary": 750000,
+        "status": "Active"
+      },
+      {
+        "id": 21,
+        "employee_id": "emp013",
+        "name": "Manish Iyer",
+        "email": "manish.iyer@company.com",
+        "phone": "+91-9876543213",
+        "department": "HR",
+        "designation": "Recruiter",
+        "hire_date": "2024-01-15",
+        "salary": 620000,
+        "status": "Active"
+      },
+      {
+        "id": 22,
+        "employee_id": "emp014",
+        "name": "Shreya Banerjee",
+        "email": "shreya.banerjee@company.com",
+        "phone": "+91-9876543214",
+        "department": "Engineering",
+        "designation": "QA Engineer",
+        "hire_date": "2024-02-20",
+        "salary": 780000,
+        "status": "Active"
+      },
+      {
+        "id": 23,
+        "employee_id": "emp015",
+        "name": "Aditya Kapoor",
+        "email": "aditya.kapoor@company.com",
+        "phone": "+91-9876543215",
+        "department": "Finance",
+        "designation": "Accountant",
+        "hire_date": "2024-03-10",
+        "salary": 650000,
+        "status": "Active"
+      },
+      {
+        "id": 24,
+        "employee_id": "emp016",
+        "name": "Meera Pillai",
+        "email": "meera.pillai@company.com",
+        "phone": "+91-9876543216",
+        "department": "Marketing",
+        "designation": "Digital Marketing Specialist",
+        "hire_date": "2024-04-05",
+        "salary": 680000,
+        "status": "Active"
+      },
+      {
+        "id": 25,
+        "employee_id": "emp017",
+        "name": "Siddharth Rao",
+        "email": "siddharth.rao@company.com",
+        "phone": "+91-9876543217",
+        "department": "Engineering",
+        "designation": "Frontend Developer",
+        "hire_date": "2024-05-15",
+        "salary": 820000,
+        "status": "Active"
+      },
+      {
+        "id": 26,
+        "employee_id": "emp018",
+        "name": "Pooja Mishra",
+        "email": "pooja.mishra@company.com",
+        "phone": "+91-9876543218",
+        "department": "Sales",
+        "designation": "Business Development",
+        "hire_date": "2024-06-20",
+        "salary": 700000,
+        "status": "Active"
+      },
+      {
+        "id": 27,
+        "employee_id": "emp019",
+        "name": "Rohan Desai",
+        "email": "rohan.desai@company.com",
+        "phone": "+91-9876543219",
+        "department": "HR",
+        "designation": "Training Specialist",
+        "hire_date": "2024-07-10",
+        "salary": 600000,
+        "status": "Active"
+      },
+      {
+        "id": 28,
+        "employee_id": "emp020",
+        "name": "Ananya Roy",
+        "email": "ananya.roy@company.com",
+        "phone": "+91-9876543220",
+        "department": "Finance",
+        "designation": "Budget Analyst",
+        "hire_date": "2024-08-05",
+        "salary": 720000,
+        "status": "Active"
+      }
+    ]
+  },
+  
+  "attendance": {
+    "count": 320,
+    "data": [
+      {
+        "id": 1,
+        "date": "2025-08-06",
+        "employee_id": "EMP001",
+        "employee_name": "Rahul Sharma",
+        "department": "Engineering",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 2,
+        "date": "2025-08-06",
+        "employee_id": "EMP002",
+        "employee_name": "Priya Patel",
+        "department": "HR",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 3,
+        "date": "2025-08-06",
+        "employee_id": "EMP003",
+        "employee_name": "Amit Verma",
+        "department": "Marketing",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 4,
+        "date": "2025-08-06",
+        "employee_id": "EMP004",
+        "employee_name": "Neha Gupta",
+        "department": "Finance",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 5,
+        "date": "2025-08-06",
+        "employee_id": "EMP005",
+        "employee_name": "Ananya Desai",
+        "department": "Marketing",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 6,
+        "date": "2025-08-06",
+        "employee_id": "EMP006",
+        "employee_name": "Vikram Malhotra",
+        "department": "Engineering",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 7,
+        "date": "2025-08-06",
+        "employee_id": "EMP007",
+        "employee_name": "Pooja Reddy",
+        "department": "HR",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      },
+      {
+        "id": 8,
+        "date": "2025-08-06",
+        "employee_id": "EMP008",
+        "employee_name": "Arjun Mehta",
+        "department": "Sales",
+        "check_in": "09:00:00",
+        "check_out": "17:30:00",
+        "hours": 8.5,
+        "status": "Present"
+      }
+    ]
+  },
+  
+  "leave_management": {
+    "count": 60,
+    "data": [
+      {
+        "id": 1,
+        "employee_id": "EMP001",
+        "employee_name": "Rahul Sharma",
+        "department": "Engineering",
+        "leave_type": "Annual Leave",
+        "start_date": "2024-02-01",
+        "end_date": "2024-02-03",
+        "days": 3,
+        "applied_date": "2025-08-13",
+        "status": "Approved",
+        "reason": "Family vacation",
+        "approved_by": "EMP002"
+      },
+      {
+        "id": 2,
+        "employee_id": "EMP003",
+        "employee_name": "Amit Verma",
+        "department": "Marketing",
+        "leave_type": "Sick Leave",
+        "start_date": "2024-01-20",
+        "end_date": "2024-01-22",
+        "days": 3,
+        "applied_date": "2025-08-13",
+        "status": "Pending",
+        "reason": "Fever and cold"
+      },
+      {
+        "id": 3,
+        "employee_id": "EMP004",
+        "employee_name": "Neha Gupta",
+        "department": "Finance",
+        "leave_type": "Personal Leave",
+        "start_date": "2024-02-15",
+        "end_date": "2024-02-15",
+        "days": 1,
+        "applied_date": "2025-08-13",
+        "status": "Approved",
+        "reason": "Personal work",
+        "approved_by": "EMP002"
+      }
+    ]
+  },
+  
+  "tasks": {
+    "count": 100,
+    "data": [
+      {
+        "id": 1,
+        "title": "Prepare Monthly Attendance Report",
+        "description": "Generate and analyze monthly attendance report for all departments",
+        "assigned_to": "EMP001",
+        "assigned_by": "EMP002",
+        "assigned_date": "2025-08-01",
+        "due_date": "2025-08-15",
+        "priority": "High",
+        "status": "In Progress",
+        "progress": 75,
+        "department": "Engineering",
+        "estimated_hours": 8
+      },
+      {
+        "id": 2,
+        "title": "Update Employee Handbook",
+        "description": "Review and update the employee handbook with new policies",
+        "assigned_to": "EMP002",
+        "assigned_by": "Admin",
+        "assigned_date": "2025-08-05",
+        "due_date": "2025-08-20",
+        "priority": "Medium",
+        "status": "Not Started",
+        "progress": 0,
+        "department": "HR",
+        "estimated_hours": 12
+      }
+    ]
+  },
+  
+  "system_metadata": {
+    "database_schema": {
+      "employees": {
+        "fields": ["id", "employee_id", "name", "email", "department", "designation", "hire_date", "status", "phone", "salary", "manager", "user"],
+        "relationships": ["has_many attendance_records", "has_many leave_requests", "has_many assigned_tasks", "has_many created_tasks"]
+      },
+      "attendance_records": {
+        "fields": ["id", "date", "employee", "check_in", "check_out", "hours", "status"],
+        "relationships": ["belongs_to employee"]
+      },
+      "leave_requests": {
+        "fields": ["id", "employee", "leave_type", "start_date", "end_date", "days", "applied_date", "status", "reason", "approved_by"],
+        "relationships": ["belongs_to employee", "belongs_to approved_by"]
+      },
+      "tasks": {
+        "fields": ["id", "title", "description", "assigned_to", "assigned_by", "assigned_date", "due_date", "priority", "status", "progress", "department", "estimated_hours"],
+        "relationships": ["belongs_to assigned_to", "belongs_to assigned_by"]
+      }
+    },
+    "api_endpoints": {
+      "employees": "/api/employees/",
+      "attendance": "/api/attendance/",
+      "leave_requests": "/api/leave-requests/",
+      "tasks": "/api/tasks/"
+    },
+    "date_format": "YYYY-MM-DD (displayed as DD:MM:YYYY in frontend)",
+    "currency": "INR (Indian Rupees)"
+  }
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EMS Project Data Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+            page-break-inside: avoid;
+        }
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 12px;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .data-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .summary-box {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .metadata {
+            background-color: #e8f4f8;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Employee Management System (EMS)</h1>
+        <h2>Comprehensive Data Report</h2>
+        <p>Generated on: August 17, 2025</p>
+    </div>
+
+    <div class="summary-box">
+        <h3>📊 Data Summary</h3>
+        <ul>
+            <li><strong>Total Employees:</strong> 28</li>
+            <li><strong>Attendance Records:</strong> 320</li>
+            <li><strong>Leave Requests:</strong> 60</li>
+            <li><strong>Tasks:</strong> 100</li>
+            <li><strong>Departments:</strong> Engineering, HR, Sales, Finance, Marketing</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>👥 Employee Data</h2>
+        <div class="metadata">
+            <strong>Employee Schema:</strong> employee_id, name, email, department, designation, hire_date, status, phone, salary, manager
+        </div>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Designation</th>
+                    <th>Hire Date</th>
+                    <th>Salary (INR)</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>EMP001</td>
+                    <td>Rahul Sharma</td>
+                    <td>rahul.sharma@company.com</td>
+                    <td>Engineering</td>
+                    <td>Senior Developer</td>
+                    <td>15:01:2023</td>
+                    <td>75000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP002</td>
+                    <td>Priya Patel</td>
+                    <td>priya.patel@company.com</td>
+                    <td>HR</td>
+                    <td>HR Manager</td>
+                    <td>10:08:2022</td>
+                    <td>65000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP003</td>
+                    <td>Amit Verma</td>
+                    <td>amit.verma@company.com</td>
+                    <td>Marketing</td>
+                    <td>Marketing Specialist</td>
+                    <td>20:03:2023</td>
+                    <td>55000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP004</td>
+                    <td>Neha Gupta</td>
+                    <td>neha.gupta@company.com</td>
+                    <td>Finance</td>
+                    <td>Financial Analyst</td>
+                    <td>05:11:2022</td>
+                    <td>60000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP005</td>
+                    <td>Ananya Desai</td>
+                    <td>ananya.desai@company.com</td>
+                    <td>Marketing</td>
+                    <td>Marketing Specialist</td>
+                    <td>15:09:2023</td>
+                    <td>65000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP006</td>
+                    <td>Vikram Malhotra</td>
+                    <td>vikram.malhotra@company.com</td>
+                    <td>Engineering</td>
+                    <td>Software Engineer</td>
+                    <td>20:10:2023</td>
+                    <td>85000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP007</td>
+                    <td>Pooja Reddy</td>
+                    <td>pooja.reddy@company.com</td>
+                    <td>HR</td>
+                    <td>HR Coordinator</td>
+                    <td>10:11:2023</td>
+                    <td>55000</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>EMP008</td>
+                    <td>Arjun Mehta</td>
+                    <td>arjun.mehta@company.com</td>
+                    <td>Sales</td>
+                    <td>Sales Representative</td>
+                    <td>05:12:2023</td>
+                    <td>60000</td>
+                    <td>Active</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><em>Note: Complete employee list with 28 employees available in the JSON file</em></p>
+    </div>
+
+    <div class="section">
+        <h2>📅 Attendance Records</h2>
+        <div class="metadata">
+            <strong>Attendance Schema:</strong> date, employee, check_in, check_out, hours, status
+        </div>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Employee</th>
+                    <th>Department</th>
+                    <th>Check In</th>
+                    <th>Check Out</th>
+                    <th>Hours</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-08-06</td>
+                    <td>Rahul Sharma</td>
+                    <td>Engineering</td>
+                    <td>09:00:00</td>
+                    <td>17:30:00</td>
+                    <td>8.5</td>
+                    <td>Present</td>
+                </tr>
+                <tr>
+                    <td>2025-08-06</td>
+                    <td>Priya Patel</td>
+                    <td>HR</td>
+                    <td>09:00:00</td>
+                    <td>17:30:00</td>
+                    <td>8.5</td>
+                    <td>Present</td>
+                </tr>
+                <tr>
+                    <td>2025-08-06</td>
+                    <td>Amit Verma</td>
+                    <td>Marketing</td>
+                    <td>09:00:00</td>
+                    <td>17:30:00</td>
+                    <td>8.5</td>
+                    <td>Present</td>
+                </tr>
+                <tr>
+                    <td>2025-08-06</td>
+                    <td>Neha Gupta</td>
+                    <td>Finance</td>
+                    <td>09:00:00</td>
+                    <td>17:30:00</td>
+                    <td>8.5</td>
+                    <td>Present</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><em>Note: 320 attendance records from July 1, 2025 to August 17, 2025</em></p>
+    </div>
+
+    <div class="section">
+        <h2>🏖️ Leave Management</h2>
+        <div class="metadata">
+            <strong>Leave Schema:</strong> employee, leave_type, start_date, end_date, days, status, reason, approved_by
+        </div>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Employee</th>
+                    <th>Department</th>
+                    <th>Leave Type</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Days</th>
+                    <th>Status</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rahul Sharma</td>
+                    <td>Engineering</td>
+                    <td>Annual Leave</td>
+                    <td>2024-02-01</td>
+                    <td>2024-02-03</td>
+                    <td>3</td>
+                    <td>Approved</td>
+                    <td>Family vacation</td>
+                </tr>
+                <tr>
+                    <td>Amit Verma</td>
+                    <td>Marketing</td>
+                    <td>Sick Leave</td>
+                    <td>2024-01-20</td>
+                    <td>2024-01-22</td>
+                    <td>3</td>
+                    <td>Pending</td>
+                    <td>Fever and cold</td>
+                </tr>
+                <tr>
+                    <td>Neha Gupta</td>
+                    <td>Finance</td>
+                    <td>Personal Leave</td>
+                    <td>2024-02-15</td>
+                    <td>2024-02-15</td>
+                    <td>1</td>
+                    <td>Approved</td>
+                    <td>Personal work</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><em>Note: 60 leave requests across all leave types (Annual, Sick, Personal, Emergency)</em></p>
+    </div>
+
+    <div class="section">
+        <h2>📋 Task Management</h2>
+        <div class="metadata">
+            <strong>Task Schema:</strong> title, description, assigned_to, assigned_by, assigned_date, due_date, priority, status, progress
+        </div>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Task Title</th>
+                    <th>Assigned To</th>
+                    <th>Department</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Progress</th>
+                    <th>Due Date</th>
+                    <th>Estimated Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Prepare Monthly Attendance Report</td>
+                    <td>Rahul Sharma</td>
+                    <td>Engineering</td>
+                    <td>High</td>
+                    <td>In Progress</td>
+                    <td>75%</td>
+                    <td>2025-08-15</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Update Employee Handbook</td>
+                    <td>Priya Patel</td>
+                    <td>HR</td>
+                    <td>Medium</td>
+                    <td>Not Started</td>
+                    <td>0%</td>
+                    <td>2025-08-20</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><em>Note: 100 tasks across all departments with progress tracking</em></p>
+    </div>
+
+    <div class="section">
+        <h2>🔧 System Information</h2>
+        <div class="summary-box">
+            <h3>Database Schema</h3>
+            <ul>
+                <li><strong>Employees:</strong> employee_id, name, email, department, designation, hire_date, status, phone, salary, manager</li>
+                <li><strong>Attendance:</strong> date, employee, check_in, check_out, hours, status</li>
+                <li><strong>Leave Requests:</strong> employee, leave_type, start_date, end_date, days, status, reason, approved_by</li>
+                <li><strong>Tasks:</strong> title, description, assigned_to, assigned_by, assigned_date, due_date, priority, status, progress</li>
+            </ul>
+        </div>
+        
+        <div class="summary-box">
+            <h3>API Endpoints</h3>
+            <ul>
+                <li><strong>Employees:</strong> /api/employees/</li>
+                <li><strong>Attendance:</strong> /api/attendance/</li>
+                <li><strong>Leave Requests:</strong> /api/leave-requests/</li>
+                <li><strong>Tasks:</strong> /api/tasks/</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📊 Data Statistics</h2>
+        <div class="summary-box">
+            <h3>Summary</h3>
+            <ul>
+                <li><strong>Total Employees:</strong> 28</li>
+                <li><strong>Total Attendance Records:</strong> 320 (July 1, 2025 - August 17, 2025)</li>
+                <li><strong>Total Leave Requests:</strong> 60</li>
+                <li><strong>Total Tasks:</strong> 100</li>
+                <li><strong>Departments:</strong> Engineering, HR, Sales, Finance, Marketing</li>
+                <li><strong>Date Format:</strong> YYYY-MM-DD (displayed as DD:MM:YYYY in frontend)</li>
+                <li><strong>Currency:</strong> INR (Indian Rupees)</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer style="text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #ccc;">
+        <p>Generated on August 17, 2025</p>
+        <p>Employee Management System - Comprehensive Data Report</p>
+    </footer>
+</body>
+</html>

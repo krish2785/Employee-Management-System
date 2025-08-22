@@ -1,0 +1,194 @@
+EMPLOYEE MANAGEMENT SYSTEM - COMPLETE CHATBOT KNOWLEDGE BASE
+======================================================================
+
+QUICK FACTS:
+------------
+• Total Employees: 20
+• Departments: Engineering, HR, Marketing, Finance, Sales
+• Largest Department: Engineering
+• Total Attendance Records: 680
+• Average Attendance Rate: 86.47%
+• Total Leave Requests: 60
+• Pending Leaves: 18
+• Total Tasks: 100
+• Completed Tasks: 22
+• High Priority Tasks: 35
+
+EMPLOYEE DIRECTORY:
+------------------
+• EMP001: Rahul Sharma
+  Department: Engineering
+  Designation: Senior Developer
+  Email: rahul.sharma@company.com
+  Phone: +91 9876543210
+
+• EMP002: Priya Patel
+  Department: HR
+  Designation: HR Manager
+  Email: priya.patel@company.com
+  Phone: +91 9876543211
+
+• EMP003: Amit Verma
+  Department: Marketing
+  Designation: Marketing Specialist
+  Email: amit.verma@company.com
+  Phone: +91 9876543212
+
+• EMP004: Neha Gupta
+  Department: Finance
+  Designation: Financial Analyst
+  Email: neha.gupta@company.com
+  Phone: +91 9876543213
+
+• EMP005: Ananya Desai
+  Department: Marketing
+  Designation: Marketing Specialist
+  Email: ananya.desai@company.com
+  Phone: +91 9876500005
+
+• EMP006: Vikram Malhotra
+  Department: Engineering
+  Designation: Software Engineer
+  Email: vikram.malhotra@company.com
+  Phone: +91 9876500006
+
+• EMP007: Pooja Reddy
+  Department: HR
+  Designation: HR Coordinator
+  Email: pooja.reddy@company.com
+  Phone: +91 9876500007
+
+• EMP008: Arjun Mehta
+  Department: Sales
+  Designation: Sales Representative
+  Email: arjun.mehta@company.com
+  Phone: +91 9876500008
+
+• EMP009: Rajesh Kumar
+  Department: Engineering
+  Designation: Senior Software Engineer
+  Email: rajesh.kumar@company.com
+  Phone: +91-9876543201
+
+• EMP010: Priya Sharma
+  Department: HR
+  Designation: HR Manager
+  Email: priya.sharma2@company.com
+  Phone: +91-9876543202
+
+• EMP011: Amit Patel
+  Department: Sales
+  Designation: Sales Director
+  Email: amit.patel@company.com
+  Phone: +91-9876543203
+
+• EMP012: Neha Singh
+  Department: Finance
+  Designation: Finance Manager
+  Email: neha.singh@company.com
+  Phone: +91-9876543204
+
+• EMP013: Vikram Singh
+  Department: Marketing
+  Designation: Marketing Specialist
+  Email: vikram.singh@company.com
+  Phone: +91-9876543205
+
+• EMP014: Anjali Verma
+  Department: Engineering
+  Designation: Software Engineer
+  Email: anjali.verma@company.com
+  Phone: +91-9876543206
+
+• EMP015: Rahul Malhotra
+  Department: HR
+  Designation: HR Coordinator
+  Email: rahul.malhotra@company.com
+  Phone: +91-9876543207
+
+• EMP016: Sneha Reddy
+  Department: Sales
+  Designation: Sales Representative
+  Email: sneha.reddy@company.com
+  Phone: +91-9876543208
+
+• EMP017: Arjun Joshi
+  Department: Finance
+  Designation: Financial Analyst
+  Email: arjun.joshi@company.com
+  Phone: +91-9876543209
+
+• EMP018: Ishita Joshi
+  Department: Engineering
+  Designation: DevOps Engineer
+  Email: ishita.joshi@company.com
+  Phone: +91-9876543210
+
+• EMP019: Karan Khanna
+  Department: Marketing
+  Designation: Content Creator
+  Email: karan.khanna@company.com
+  Phone: +91-9876543211
+
+• EMP020: Divya Nair
+  Department: Sales
+  Designation: Sales Manager
+  Email: divya.nair@company.com
+  Phone: +91-9876543212
+
+ATTENDANCE SUMMARY:
+-------------------
+Total Records: 680
+Date Range: 2025-07-01 to 2025-08-15
+
+By Status:
+• Present: 588
+• Absent: 41
+• Late: 38
+• Half Day: 13
+
+Top Attendance Performers:
+• EMP008 (Arjun Mehta): 91.18%
+• EMP011 (Amit Patel): 91.18%
+• EMP012 (Neha Singh): 91.18%
+• EMP003 (Amit Verma): 88.24%
+• EMP004 (Neha Gupta): 88.24%
+
+LEAVE REQUEST SUMMARY:
+---------------------
+Total Requests: 60
+
+By Status:
+• Approved: 38
+• Pending: 18
+• Rejected: 4
+
+By Type:
+• Annual Leave: 20
+• Sick Leave: 16
+• Personal Leave: 11
+• Emergency Leave: 10
+• Casual Leave: 3
+
+TASK SUMMARY:
+-------------
+Total Tasks: 100
+
+By Status:
+• Not Started: 19
+• In Progress: 49
+• Completed: 22
+• On Hold: 10
+
+By Priority:
+• High: 35
+• Medium: 43
+• Low: 22
+
+By Department:
+• Engineering: 27
+• HR: 16
+• Marketing: 22
+• Finance: 12
+• Sales: 23
+
